@@ -1,0 +1,34 @@
+.container {
+  font-family: sans-serif;
+}
+
+.searchbar {
+  width: 85%;
+  height: 30px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.album-title {
+  font-size: 19px;
+  color: black;
+  font-weight: 600;
+  padding-left: 8%;
+  margin: 10px;
+}
+#searchbar {
+  width: 100%;
+  height: 100%;
+  background-color: #eee5ff;
+  border-radius: 5px;
+  border: none;
+}
+#searchbar:focus {
+  outline: none;
+}
+#searchbar > input {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: rgb(127, 61, 255);
+}
